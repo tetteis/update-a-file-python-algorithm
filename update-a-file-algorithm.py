@@ -28,8 +28,7 @@ for element in remove_list:
 
     if element in ip_addresses:
 
-        # use the `.remove()` method to remove
-        # elements from `ip_addresses`
+        # use the `.remove()` method to remove elements from `ip_addresses`
 
         ip_addresses.remove(element)
 
