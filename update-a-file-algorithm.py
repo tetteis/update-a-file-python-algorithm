@@ -33,8 +33,6 @@ for element in remove_list:
 
         ip_addresses.remove(element)
 
-        # print("Reading ip addresses after removing:", ip_addresses)
-
 # Convert `ip_addresses` back to a string so that it can be written into the text file
 
 ip_addresses = "\n".join(ip_addresses)
